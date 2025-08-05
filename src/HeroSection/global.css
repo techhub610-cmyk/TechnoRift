@@ -1,0 +1,24 @@
+@keyframes drawEllipse {
+  0% {
+    stroke-dasharray: 0, 800;
+    stroke-dashoffset: 800;
+  }
+  50% {
+    stroke-dasharray: 800, 0;
+    stroke-dashoffset: 0;
+  }
+  100% {
+    stroke-dasharray: 800, 0;
+    stroke-dashoffset: 0;
+  }
+}
+
+.animated-ellipse {
+  stroke-dasharray: 800;
+  stroke-dashoffset: 800;
+  animation: drawEllipse 2s ease forwards;
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+}
