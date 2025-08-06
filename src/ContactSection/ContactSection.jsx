@@ -2,16 +2,11 @@ import React from 'react';
 import { IoPhonePortraitOutline } from "react-icons/io5";
 import { IoMdMail } from "react-icons/io";
 import { FaMapPin } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa";
-import { FaFacebookF } from "react-icons/fa";
+import { FaLinkedin, FaFacebookF, FaWhatsapp } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa6";
-import { FaWhatsapp } from "react-icons/fa";
 import { FaTiktok } from "react-icons/fa";
 
-import video from "../Assets/map.mp4"
-
-
-
+import video from "../Assets/map.mp4";
 
 export default function ContactSection() {
     return (
@@ -37,7 +32,7 @@ export default function ContactSection() {
                     </div>
                     <div className='flex items-center space-x-2'>
                         <FaMapPin />
-                        <p>Amir Plaza College Road , Kohinoor City Faisalabad</p>
+                        <p>Amir Plaza College Road, Kohinoor City Faisalabad</p>
                     </div>
                 </div>
 
@@ -56,21 +51,15 @@ export default function ContactSection() {
                 <video
                     className="w-full max-w-md rounded-lg shadow-lg"
                     src={video}
-                    
                     autoPlay
                     loop
                     muted
+                    playsInline
+                    controls={false}
+                    disablePictureInPicture
+                    controlsList="nodownload nofullscreen noremoteplayback"
                 />
             </div>
-            {/* RIGHT SIDE */}
-            {/* <div className="md:w-1/2 mt-10 md:mt-0 flex justify-center">
-                <img
-                    src={video}
-                    alt="Contact Illustration"
-                    className="w-full max-w-md rounded-lg shadow-lg"
-                />
-            </div> */}
-
         </section>
     );
 }
