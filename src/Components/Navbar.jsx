@@ -118,12 +118,12 @@ const Navbar = () => {
           <Link to="/contact" href="#" className="block hover:text-[#02B4D8]">Contact</Link>
 
           {/* Mobile CTA */}
-          <a
+          <Link to="/calendar"
             href="#"
             className="inline-block bg-white text-[#02B4D8] text-sm px-4 py-2 rounded-full font-semibold shadow hover:bg-[#02B4D8] hover:text-white transition"
           >
             Get Free Proposal
-          </a>
+          </Link>
         </div>
       )}
     </nav>

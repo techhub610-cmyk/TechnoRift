@@ -206,7 +206,7 @@ const HeroSection = () => {
                 <ellipse
                   cx="200"
                   cy="72"
-                  rx="248"
+                  rx="245"
                   ry="32"
                   stroke="white"
                   strokeWidth="1.5"
