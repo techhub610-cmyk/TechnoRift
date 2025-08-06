@@ -12,6 +12,10 @@ const AboutTwo = () => {
           autoPlay
           loop
           muted
+          playsInline
+          controls={false}
+          disablePictureInPicture
+          controlsList="nodownload nofullscreen noremoteplayback"
           className="w-full max-w-[500px] max-h-[350px] rounded-lg object-cover"
         >
           Your browser does not support the video tag.
