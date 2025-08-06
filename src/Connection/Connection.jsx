@@ -9,14 +9,14 @@ import VideoSection from '../VideoSection/VideoSection'
 
 function Connection() {
   return (
-    <div>
-      <HeroSection/>
-      <VideoSection/>
-      <SkillsSection/>
-      <ServiceCards/>
-      <AdvertisementSection/>
-      <Testimonials/>
-      <ContactForm/>
+    <div className="overflow-x-hidden">
+      <HeroSection />
+      <VideoSection />
+      <SkillsSection />
+      <ServiceCards />
+      <AdvertisementSection />
+      <Testimonials />
+      <ContactForm />
     </div>
   )
 }
