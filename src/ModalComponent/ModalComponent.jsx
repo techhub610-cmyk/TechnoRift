@@ -1,72 +1,9 @@
-// import React, { useState, useEffect } from 'react';
-// import 'animate.css';
-
-// const ModalComponent = () => {
-//   const [isOpen, setIsOpen] = useState(true); // Show on page load
-
-//   useEffect(() => {
-//     // Optional: if you want to add delay before modal shows
-//     // const timer = setTimeout(() => setIsOpen(true), 1000); // show after 1 second
-//     // return () => clearTimeout(timer);
-//   }, []);
-
-//   const closeModal = () => {
-//     setIsOpen(false); // Hides the modal
-//   };
-
-//   return (
-//     <>
-//       {isOpen && (
-//         <div className="fixed inset-0 z-50 bg-black bg-opacity-50 flex items-center justify-center">
-//           <div className="bg-white rounded-lg overflow-hidden shadow-lg animate__animated animate__zoomInDown w-full max-w-2xl relative">
-//             <button
-//               onClick={closeModal}
-//               className="absolute top-4 right-4 text-xl text-gray-500 hover:text-red-500"
-//             >
-//               &times;
-//             </button>
-
-//             <div className="flex flex-col md:flex-row">
-//               <div
-//                 className="w-full md:w-1/2 min-h-[200px] bg-cover bg-center"
-//                 style={{
-//                   backgroundImage:
-//                     "url('https://images.unsplash.com/photo-1525097596740-cb2a70e07e3b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80')",
-//                 }}
-//               ></div>
-
-//               <div className="w-full md:w-1/2 p-6 text-center">
-//                 <h2 className="text-2xl font-semibold mb-2">
-//                   Welcome to Our Website
-//                 </h2>
-//                 <p className="text-gray-600 mb-4">
-//                   This is an automatic modal on page load using Animate.css.
-//                 </p>
-//                 <button
-//                   onClick={closeModal}
-//                   className="w-full bg-[#28304e] text-white px-4 py-3 rounded-md uppercase font-semibold"
-//                 >
-//                   Close 
-//                 </button>
-//               </div>
-//             </div>
-//           </div>
-//         </div>
-//       )}
-//     </>
-//   );
-// };
-
-// export default ModalComponent;
-
-
-
 import React, { useState, useEffect } from 'react';
 import 'animate.css';
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
 import poster1 from "../Assets/poster1.jpg"
-import poster2 from "../Assets/Azadi sale Graphic designing-03-min.jpg"
-import poster3 from "../Assets/Azadi sale Digital Marketing-01-min.jpg"
+import poster2 from "../Assets/poster2.jpg"
+import poster3 from "../Assets/poster3.jpg"
 
 const posters = [
     poster1,
@@ -135,14 +72,15 @@ const ModalComponent = () => {
                         {/* Bottom Text + Close */}
                         <div className="p-6 text-center">
                             <h2 className="text-2xl font-semibold mb-2 text-white">
-                                Welcome to TechHub!
+                                Welcome to TechnoRift!
                             </h2>
                             <p className="text-white mb-4">
                                 Check out our latest course posters and offerings.
                             </p>
                             <button
                                 onClick={closeModal}
-                                className="bg-[#28304e] text-white px-6 py-3 rounded-md uppercase font-semibold"
+                                className="bg-[#28304e] text-white px-6 py-3 rounded-md uppercase font-semibold hover:text-red-500 z-10"
+
                             >
                                 Close
                             </button>
