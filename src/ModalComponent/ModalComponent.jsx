@@ -1,14 +1,16 @@
 import React, { useState, useEffect } from 'react';
 import 'animate.css';
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
-import poster1 from "../Assets/poster1.jpg"
-import poster2 from "../Assets/poster2.jpg"
-import poster3 from "../Assets/poster3.jpg"
+import poster0 from "../Assets/technorift_banner.png"
+// import poster1 from "../Assets/poster1.jpg"
+// import poster2 from "../Assets/poster2.jpg"
+// import poster3 from "../Assets/poster3.jpg"
 
 const posters = [
-    poster1,
-    poster2,
-    poster3
+    poster0,
+    // poster1,
+    // poster2,
+    // poster3
 ];
 
 const ModalComponent = () => {

@@ -21,10 +21,10 @@ const courses = [
   },
   {
     id: 3,
-    title: "Social Media Management",
+    title: "Digital Marketing",
     category: "Digital Marketing",
     duration: "12 weeks",
-    image: "/Assets/management.jpeg",
+    image: "/Assets/digital.jpeg",
   },
   {
     id: 4,

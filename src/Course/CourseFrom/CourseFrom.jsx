@@ -49,7 +49,7 @@ const CourseForm = () => {
           <option value="">Select a Course</option>
           <option value="Full-Stack Web Development">Full-Stack Web Development</option>
           <option value="Social Media Marketing">Social Media Marketing</option>
-          <option value="Social Media Management">Social Media Management</option>
+          <option value="Social Media Management">Digital Marketing</option>
           <option value="SEO">SEO</option>
           <option value="Shopify">Shopify</option>
           <option value="Graphic Designing">Graphic Designing</option>
