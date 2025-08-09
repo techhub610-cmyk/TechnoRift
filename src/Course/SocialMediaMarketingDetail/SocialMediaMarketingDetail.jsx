@@ -214,7 +214,7 @@ const courseDetails = {
   3: {
     title: "Digital Marketing",
     category: "Marketing",
-    image: "/Assets/digital.jpeg",
+    image: "/Assets/digital-min.jpeg",
     description:
       "Master content calendars, community management, and strategic execution across major platforms.",
     skills: [
@@ -365,7 +365,7 @@ const courseDetails = {
 
 const relatedCourses = [
   { id: 2, title: "Social Media Marketing", image: "/Assets/marketing.jpg" },
-  { id: 3, title: "Digital Marketing", image: "/Assets/digital.jpeg" },
+  { id: 3, title: "Digital Marketing", image: "/Assets/digital-min.jpeg" },
   { id: 4, title: "SEO", image: "/Assets/seo.jpg" },
   { id: 5, title: "Shopify", image: "/Assets/shopify.jpeg" },
   { id: 6, title: "Graphic Design", image: "/Assets/graphic.jpg" },

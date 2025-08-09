@@ -24,7 +24,7 @@ const courses = [
     title: "Digital Marketing",
     category: "Digital Marketing",
     duration: "12 weeks",
-    image: "/Assets/digital.jpeg",
+    image: "/Assets/digital-min.jpeg",
   },
   {
     id: 4,
